@@ -1,0 +1,41 @@
+﻿.img-box {
+	column-count: 4;	/*Количество колонок*/
+	column-gap: 3px;		/*Отступ между колонками*/
+	width: 80%;
+	max-width: 1400px;
+	margin: auto; 
+}
+
+.image {
+	max-width: 100%;
+	display: block;
+}
+.image-link {
+	display: block;
+}
+.image-link + .image-link{
+	margin: 3px 0;
+}
+
+@media all and (max-width: 1024px){
+	.img-box{
+		width: 90%;
+		column-count: 3;
+	}
+}
+@media all and (max-width: 768px){
+	.img-box{
+		width: 90%;
+		column-count: 2;
+}
+@media all and (max-width: 480px){
+	.img-box{
+		width: 90%;
+		column-count: 1;
+}
+@media all and (min-width: 1200px) {
+	.image-link:hover {
+		filter: hue-rotate(100deg);
+		transition: 0.9s;
+	}
+}
