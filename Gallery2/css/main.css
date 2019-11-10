@@ -16,7 +16,10 @@
 .image-link + .image-link{
 	margin: 3px 0;
 }
-
+.image-link:hover {
+	filter: hue-rotate(100deg);
+	transition: 0.9s;
+}
 @media all and (max-width: 1024px){
 	.img-box{
 		width: 90%;
@@ -32,10 +35,4 @@
 	.img-box{
 		width: 90%;
 		column-count: 1;
-}
-@media all and (min-width: 1200px) {
-	.image-link:hover {
-		filter: hue-rotate(100deg);
-		transition: 0.9s;
-	}
 }
