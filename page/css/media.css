@@ -1,0 +1,101 @@
+@media all and (min-width: 1150px){
+	.trans:hover{
+		background-color: #00897b;
+		border-color: transparent;
+	}
+	.green:hover{
+		background-color: transparent;
+		border: 4px solid;
+	}
+	.nav-link:hover{
+		background-color: black;
+		color: white;
+	}
+	.second-items:hover .readmore{
+		color: white;
+	}
+	.second-items:hover{
+		background-color: #00897b;
+		color: white;
+		transform: scale(1.05);
+		box-shadow: 0 0 40px 5px rgba(0,0,0,0.3);
+	}
+
+	.second-items:hover .icon{
+		fill: white;
+	}
+	.tab-title:hover{
+		box-shadow: 0 0 40px 5px rgba(0,0,0,0.7);
+		height: 50px;
+		width: 150px;
+	}
+}
+@media all and (max-width: 768px) {
+	.nav-wrapper{
+		overflow: auto;
+		white-space: nowrap;
+	}
+	.logo, .search-wrapper, .top-nav{
+		display: inline-block;
+	}
+	.h3{
+		font-size: 8vw;
+	}
+	.gta{
+		width: 90vw;
+		height: 60px;
+		margin-top: 15px;
+	}
+	.gta + .gta{
+		margin-left: 0;
+	}
+	.second-items, .first-items{
+		width: 90%;
+		margin: 20px auto;
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+	.first-box, .contact-box{
+		margin-top: 50px;
+		flex-wrap: wrap;
+	}
+	.tion-sub{
+		width: 80%;
+	}
+	.tabs>label{
+		width: 100%;
+		height: 60px;
+		margin-top: 15px;
+		font-size: 3rem;
+	}
+	.tabs>label[for="tab_2"]{
+		margin-left: 0;
+	}
+	.tabs>label[for="tab_3"]{
+		margin-left: 0;
+	}
+	.lol{
+		width: 100%;
+	}
+	.tabs{
+		width: 90vw;
+	}
+	.More-mem{
+		width: 100%;
+	}
+	.form>input{
+		width: 90vw;
+		margin-top: 15px;
+	}
+
+}
+@media all and (max-width: 905px) and (min-width: 768px){
+	.tabs>label[for="tab_3"]{
+		width: calc(60% + 20px);
+		margin-top: 25px;
+		margin-left: 0;
+	}
+	.lol{
+		width: 45%;
+	}
+}

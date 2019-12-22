@@ -1,0 +1,38 @@
+.h3{
+	font-size: 2rem;
+	left: 90px;
+}
+.icon{
+	display: block;
+	width: 80px;
+}
+img{
+	width : 100%;
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+html{
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+}
+p{
+	margin-top: 50px;
+}
+.header{
+	width: 60%;
+	margin: auto;
+	display: flex;
+}
+.main {
+	width: 60%;
+	margin: auto;
+}
