@@ -323,3 +323,21 @@ html{
 	height: 50px ;
 	border-radius: 10px;
 }
+.More-mem{
+	border: none;
+	width: 200px;
+	height: 60px;
+	font-size: 1.8rem;
+	display: inline-block;
+	margin-top: 50px;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	cursor: pointer;
+	transition: 0.3s ease-in;
+	border: 3px solid transparent;
+	background-color: #00897b;
+}
+.p{
+	font-size: 1.5rem;
+}
