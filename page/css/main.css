@@ -316,13 +316,7 @@ html{
 	outline: none;
 	resize: none;
 }
-.form-btn{
-	float: right;
-	background-color:#00897b;
-	width: 100px;
-	height: 50px ;
-	border-radius: 10px;
-}
+
 .More-mem{
 	border: none;
 	width: 200px;
@@ -337,6 +331,14 @@ html{
 	transition: 0.3s ease-in;
 	border: 3px solid transparent;
 	background-color: #00897b;
+}
+.form-btn{
+	float: right;
+	background-color:#00897b;
+	width: 100px;
+	height: 50px ;
+	border-radius: 10px;
+	margin-top: 20px;
 }
 .p{
 	font-size: 1.5rem;
