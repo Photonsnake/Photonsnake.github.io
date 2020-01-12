@@ -17,13 +17,16 @@ html{
 	letter-spacing: 0.5px;
 }
 .nav-wrapper{
+	position: fixed;
+	background-color: white;
+	z-index: 100;
 /*	position: absolute;*/
 	height: 100px;
 	/*padding: 0 100px;*/
 	display: flex;
-	width: 97.5%;
+	width: 100%;
 	margin: auto;
-	max-width: 1200px;
+	max-width: 1500px;
 	align-items: center;
 	-ms-align-items: center;
 	justify-content: space-between;
@@ -55,6 +58,7 @@ html{
 	font-size: 2.5rem;
 	font-weight: bold;
 	width: 150px;
+	margin-right: 250px;
 }
 .search{
 	background-image: url(../img/search.png);
@@ -83,7 +87,7 @@ html{
 .header{
 	background-image: url(../img/img.jpg);
 	background-repeat: no-repeat;
-	height: calc(100%-100px);
+	height: 100%;
 	background-size: cover;
 	-webkit-background-size: cover;
 	background-position: 50% 30%;
@@ -162,6 +166,7 @@ html{
 #mama{
 	height: 75px;
 	width: 75px;
+	margin-left: 100px;
 }
 .first{
 	text-align: center;
