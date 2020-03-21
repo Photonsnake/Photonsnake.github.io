@@ -52,7 +52,7 @@ window.onload = function() {
 		if (distance < 75&& distance > 35) {
 			return 'Горишь'
 		}
-		if (distance < 35){
+		if (distance < 35&& distance >20){
 			return'Пустыня'
 		}
 		if (distance < 20) {
