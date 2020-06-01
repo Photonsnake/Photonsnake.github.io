@@ -1,0 +1,17 @@
+body, html{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+.wrapper{
+	width: 100%;
+	height: 100%;
+}
+#canv{
+	width: 100%;
+	height: 100%;
+	background-image: url('IMG/bg.jpg');
+	background-size: cover;
+}
